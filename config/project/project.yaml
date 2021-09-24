@@ -1,20 +1,21 @@
-dateModified: 1630245946
+dateModified: 1632527346
 email:
   fromEmail: ethan@ethanzitting.com
-  fromName: craftSite
+  fromName: 'Mosey Podcast'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    3d4506e6-1f34-42e3-98bf-154cf66f0569: craftSite # craftSite
-    7df3f124-ef3e-43c7-8ffd-986e4e88ae03: Home # Home
-    75c4ff0e-2a99-4787-8266-10c7a2979fa0: Home # Home
-    181f615e-f62a-4b86-9006-4caf737fd872: craftSite # craftSite
-    477565f6-59fe-4bf7-8996-fe10435725cb: Common # Common
+    3f4cc2e9-4911-41d2-9bb7-3c74b37d402a: 'Mosey Podcast' # Mosey Podcast
+    9c3ffe18-cfe2-45fa-889f-33604efd21c1: Home # Home
+    016e8c96-5fb6-4e94-aa19-a4870dfa1463: Home # Home
+    246d7e21-bfd5-4b86-95f6-6a1f83d49ce3: Common # Common
+    c6e56abd-82dd-495b-bda7-fa82edcbe5da: 'Mosey Podcast' # Mosey Podcast
+    d89b75da-322d-427f-93ae-0bc71bafcc60: 'Public Schema' # Public Schema
 system:
   edition: solo
   live: true
-  name: craftSite
-  schemaVersion: 3.7.7
+  name: 'Mosey Podcast'
+  schemaVersion: 3.7.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

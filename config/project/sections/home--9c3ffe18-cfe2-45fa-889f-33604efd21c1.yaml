@@ -4,7 +4,7 @@ handle: home
 name: Home
 propagationMethod: all
 siteSettings:
-  181f615e-f62a-4b86-9006-4caf737fd872: # craftSite
+  c6e56abd-82dd-495b-bda7-fa82edcbe5da: # Mosey Podcast
     enabledByDefault: true
     hasUrls: true
     template: _pages/home

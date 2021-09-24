@@ -1,5 +1,5 @@
 fieldLayouts:
-  0ce42eb4-1ef9-4284-a17a-3317fde1bbdd:
+  dfb31aca-a8ca-48fc-a15e-a1aab9c5e5e8:
     tabs:
       -
         elements:
@@ -31,7 +31,7 @@ fieldLayouts:
 handle: home
 hasTitleField: false
 name: Home
-section: 75c4ff0e-2a99-4787-8266-10c7a2979fa0 # Home
+section: 9c3ffe18-cfe2-45fa-889f-33604efd21c1 # Home
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

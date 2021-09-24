@@ -1,8 +1,9 @@
 baseUrl: $PRIMARY_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: craftSite
+name: 'Mosey Podcast'
 primary: true
-siteGroup: 3d4506e6-1f34-42e3-98bf-154cf66f0569 # craftSite
+siteGroup: 3f4cc2e9-4911-41d2-9bb7-3c74b37d402a # Mosey Podcast
 sortOrder: 1
