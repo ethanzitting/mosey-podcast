@@ -1,0 +1,24 @@
+dateModified: 1630245946
+email:
+  fromEmail: ethan@ethanzitting.com
+  fromName: craftSite
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3d4506e6-1f34-42e3-98bf-154cf66f0569: craftSite # craftSite
+    7df3f124-ef3e-43c7-8ffd-986e4e88ae03: Home # Home
+    75c4ff0e-2a99-4787-8266-10c7a2979fa0: Home # Home
+    181f615e-f62a-4b86-9006-4caf737fd872: craftSite # craftSite
+    477565f6-59fe-4bf7-8996-fe10435725cb: Common # Common
+system:
+  edition: solo
+  live: true
+  name: craftSite
+  schemaVersion: 3.7.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
