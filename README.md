@@ -235,3 +235,7 @@ sudo chown -R apache craft
 sudo systemctl restart apache2
 # Big Success!!!! Great big success.
 # Now I’ll sling together a base podcast sight and bounce it off of Christy and Mosey
+
+# In: /var/www/html/craft:
+sudo chown apache:ethan *
+sudo chmod 755 *
