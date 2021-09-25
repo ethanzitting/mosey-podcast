@@ -239,3 +239,6 @@ sudo systemctl restart apache2
 # In: /var/www/html/craft:
 sudo chown apache:ethan *
 sudo chmod 755 *
+
+# Here I was having trouble writing files down inside nested directories
+sudo chmod -R 775 .
