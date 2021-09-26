@@ -242,3 +242,35 @@ sudo chmod 755 *
 
 # Here I was having trouble writing files down inside nested directories
 sudo chmod -R 775 .
+
+Installed the following items through composer:
+"require": {
+"craftcms/cms": "3.7.11",
+"craftcms/redactor": "2.8.8",
+"misterbk/mix": "1.5.2",
+"nystudio107/craft-seomatic": "3.4.6",
+"sebastianlenz/linkfield": "1.0.25",
+"verbb/expanded-singles": "1.1.4",
+"verbb/field-manager": "2.2.4",
+"verbb/super-table": "2.6.8",
+"vlucas/phpdotenv": "^3.4.0"
+},
+"require-dev": {
+"yiisoft/yii2-shell": "^2.0.3"
+}
+
+installed the following items through npm:
+"devDependencies": {
+"browser-sync": "^2.27.5",
+"browser-sync-webpack-plugin": "^2.3.0",
+"laravel-mix": "^6.0.31",
+"postcss": "^8.3.8",
+"resolve-url-loader": "^4.0.0",
+"sass": "^1.42.1",
+"sass-loader": "^12.1.0"
+},
+"dependencies": {
+"normalize": "^0.3.1"
+}
+
+I am working to rebuild the motherhood reclaimed tech stack.

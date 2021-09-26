@@ -1,4 +1,4 @@
-dateModified: 1632527346
+dateModified: 1632613029
 email:
   fromEmail: ethan@ethanzitting.com
   fromName: 'Mosey Podcast'
@@ -11,6 +11,31 @@ meta:
     246d7e21-bfd5-4b86-95f6-6a1f83d49ce3: Common # Common
     c6e56abd-82dd-495b-bda7-fa82edcbe5da: 'Mosey Podcast' # Mosey Podcast
     d89b75da-322d-427f-93ae-0bc71bafcc60: 'Public Schema' # Public Schema
+plugins:
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  mix:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

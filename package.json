@@ -1,4 +1,23 @@
 {
+  "name": "mosey-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanzitting/mosey-podcast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanzitting/mosey-podcast/issues"
+  },
+  "homepage": "https://github.com/ethanzitting/motherhood-reclaimed-#readme",
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "browser-sync-webpack-plugin": "^2.3.0",
@@ -9,6 +28,6 @@
     "sass-loader": "^12.1.0"
   },
   "dependencies": {
-    "normalize": "^0.3.1"
+    "mini-css-extract-plugin": "^2.3.0"
   }
 }

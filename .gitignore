@@ -10,3 +10,7 @@ config/license.key
 !web/index.php
 !web/.htaccess
 !web/web.config
+web/*.js
+web/*.css
+web/assets
+web/mix-manifest.json
