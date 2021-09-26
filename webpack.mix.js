@@ -2,7 +2,7 @@ const mix = require('laravel-mix');
 
 mix.js('assets/js/main.js', 'web')
     .sass('assets/scss/main.scss', '/assets')
-    .copyDirectory('assets/static', 'web')
+    .copyDirectory('assets/static', 'web/static')
     .setPublicPath('web')
     .sourceMaps()
     .version()

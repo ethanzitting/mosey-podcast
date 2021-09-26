@@ -12,5 +12,9 @@ config/license.key
 !web/web.config
 web/*.js
 web/*.css
-web/assets
+web/*.png
+web/*.jpg
+web/*.jpeg
+web/assets/*
 web/mix-manifest.json
+assets/static/*
