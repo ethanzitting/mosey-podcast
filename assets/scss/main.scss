@@ -2,23 +2,17 @@
 @import 'modules/all';
 @import 'utils/all';
 @import 'variables';
-
-nav {
-    position: fixed;
-    width: 100%;
-    height: 30px;
-    border-bottom: 1px solid gray;
-    box-shadow: 1px 1px 5px 1px gray;
-
-    display: inline-flex;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 main {
-    margin-top: 30px;
-    min-height: calc(100vh - 60px);
+    padding-top: 40px;
+    min-height: calc(100vh - 30px);
 }
 
 body {
+    position: relative;
     background-image: url('../static/sam-dan-truong-ju2NgSoR6pA-unsplash.jpeg');
     background-position: center;
     background-size: cover;

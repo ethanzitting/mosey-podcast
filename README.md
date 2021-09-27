@@ -274,3 +274,10 @@ installed the following items through npm:
 }
 
 I am working to rebuild the motherhood reclaimed tech stack.
+
+I've got to remember that my macos environment has progressed further than my server environment.
+I will push my changes to my server environment, so I need to keep track of my macos env changes.
+I created a richer, modular scss structure.
+I've been updating webpack.mix.js periodically to output to web in ways I prefer.
+Hell, I probably won't track many changes in the actual .twig and .scss files as there will be too many little ones.
+I'll just track backendy type stuff.
