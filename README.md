@@ -281,3 +281,8 @@ I created a richer, modular scss structure.
 I've been updating webpack.mix.js periodically to output to web in ways I prefer.
 Hell, I probably won't track many changes in the actual .twig and .scss files as there will be too many little ones.
 I'll just track backendy type stuff.
+
+sudo apt install npm
+npm install
+sudo apt upgrade
+npm install -g npm
