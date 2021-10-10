@@ -8,11 +8,16 @@
     } %}
 
     {% set latestContent = entry.latestContent %}
-    {% include '_modules/latest-content.twig' with {
-        audio: latestContent.audio,
-        thumbnail: latestContent.thumbnail,
-        description: latestContent.description,
-    } %}
+    {% if latestContent %}
+        {% if latestContent.thumbnail %}
+            {% set thumbnail = latestContent.thumbnail.one() %}
+        {% endif %}
+        {% include '_modules/latest-content.twig' with {
+            audio: latestContent.audio,
+            thumbnail: thumbnail,
+            description: latestContent.description,
+        } %}
+    {% endif %}
 
     {% set textBlock = entry.textBlock %}
     {% include '_modules/text-block.twig' with {

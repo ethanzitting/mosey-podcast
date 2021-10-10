@@ -54,7 +54,7 @@ fields:
       previewMode: full
       restrictFiles: '1'
       selectionLabel: 'Add a Thumbnail'
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:17d2fe99-f345-4936-8a61-8f10d7fe53ef' # First Volume
@@ -88,13 +88,14 @@ fields:
       previewMode: full
       restrictFiles: '1'
       selectionLabel: 'Add Audio File'
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:17d2fe99-f345-4936-8a61-8f10d7fe53ef' # First Volume
       singleUploadLocationSubpath: ''
       source: null
-      sources: '*'
+      sources:
+        - 'volume:17d2fe99-f345-4936-8a61-8f10d7fe53ef' # First Volume
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -103,7 +104,7 @@ fields:
     translationMethod: site
     type: craft\fields\Assets
   834b4231-6986-427b-996b-ef52769b0f1c: # Description
-    columnSuffix: btvprwtt
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description

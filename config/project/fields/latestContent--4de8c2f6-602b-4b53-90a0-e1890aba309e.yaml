@@ -6,6 +6,29 @@ instructions: 'This will show the most recent episode, links to it on the major 
 name: 'Latest Content'
 searchable: false
 settings:
+  columns:
+    __assoc__:
+      -
+        - 417fd695-3865-4a13-9472-e089651c22fe # Audio
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 5f7efe5c-f33e-4a34-b484-3cce991f1d31 # Thumbnail
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 834b4231-6986-427b-996b-ef52769b0f1c # Description
+        -
+          __assoc__:
+            -
+              - width
+              - ''
   contentTable: '{{%stc_latestcontent}}'
   fieldLayout: row
   maxRows: '1'
@@ -13,7 +36,7 @@ settings:
   placeholderKey: null
   propagationMethod: all
   selectionLabel: ''
-  staticField: ''
+  staticField: '1'
 translationKeyFormat: null
 translationMethod: site
 type: verbb\supertable\fields\SuperTableField

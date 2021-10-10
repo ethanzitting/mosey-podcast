@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: episodes
+name: Episodes
+propagationMethod: all
+siteSettings:
+  c6e56abd-82dd-495b-bda7-fa82edcbe5da: # Mosey Podcast
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/episodes.twig
+    uriFormat: 'episodes/{slug}'
+type: channel
