@@ -1,0 +1,19 @@
+columnSuffix: ifvzfkwq
+contentColumnType: text
+fieldGroup: 246d7e21-bfd5-4b86-95f6-6a1f83d49ce3 # Common
+handle: jumbotron
+instructions: ''
+name: Jumbotron
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Jumbotron Text'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

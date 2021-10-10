@@ -1,0 +1,38 @@
+field: 80def324-741c-4cd9-99ce-058aa2da36c4 # Small Episode List
+fieldLayouts:
+  2db981a3-9e52-4369-9d76-69417e30f8df:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f0b99210-d39a-4dc7-bd32-6eba1a027642 # List Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  f0b99210-d39a-4dc7-bd32-6eba1a027642: # List Item
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: listItem
+    instructions: ''
+    name: 'List Item'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'List Item'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

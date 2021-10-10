@@ -1,3 +1,21 @@
-<div class="latest-content container">
-    Latest Content Block, Linking to Podcast Platforms and Serving an Audio File
-</div>
+{#
+/**
+ * Available variables:
+ * - audio: the audio file to be retrieved from craft
+ * - thumbnail: the thumbnail to display for the audio file
+ * - description: the description for the audio file
+ */
+#}
+
+<section class="latest-content container">
+    <audio controls preload="auto">
+        <source src="audiofile.mp3" type="audio/mpeg">
+
+        <!-- fallback for browsers that don't support mp3 -->
+        <source src="audiofile.ogg" type="audio/ogg">
+
+        <!-- fallback for browsers that don't support audio tag -->
+        <a href="audiofile.mp3">download audio</a>
+    </audio>
+    {{ description }}
+</section>

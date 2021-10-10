@@ -1,0 +1,28 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 246d7e21-bfd5-4b86-95f6-6a1f83d49ce3 # Common
+handle: smallEpisodeList
+instructions: 'This is a list of the most recent episodes.'
+name: 'Small Episode List'
+searchable: false
+settings:
+  columns:
+    __assoc__:
+      -
+        - f0b99210-d39a-4dc7-bd32-6eba1a027642 # List Item
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_smallepisodelist}}'
+  fieldLayout: table
+  maxRows: '3'
+  minRows: ''
+  placeholderKey: null
+  propagationMethod: all
+  selectionLabel: 'Add Episode'
+  staticField: ''
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

@@ -1,3 +1,12 @@
+{#
+/**
+ * Available variables:
+ * - text: the text content of the jumbotron module
+ */
+#}
+
 <section class="small-episode-list container">
-    Small Episode List, The 2nd, 3rd, and 4th most recent episodes.
+    {% for episode in episodeList %}
+        {{ episode.listItem }}<br>
+    {% endfor %}
 </section>

@@ -286,3 +286,35 @@ sudo apt install npm
 npm install
 sudo apt upgrade
 npm install -g npm
+
+I am creating twig modules and feeding them into craftCMS. This is all heavily craft related, and doesn't make much sense to track here.
+Youtube videos to follow.
+
+Everything is going smoothly with setting up the craft modules and pulling simple data from craft.
+
+I am working with the first podcast audio file now. It is almost a gigabyte. I will need to find out how to both:
+ - compress the file as much as possible without it being too noticable,
+ - lazy-load the audio file with 'buffering' so that the user can listen immediately and easily.
+
+I will be streaming the audio files rather than just serving them. I do not want to use a lot of bandwidth on customers
+that are only stopping by.
+
+MP3 256kb/s seems like a good starting point
+
+Using the software Audacity, I converted and compressed the podcast audio file from 900MB to 30MB.
+
+Now I am experimenting with setting up assets and serving an audio file from craft.
+
+My craft is telling me that my file upload is too big. Looks like this problem stems from php's config settings.
+
+I located the php.ini file in /usr/local/etc/php/8.0 (macos)
+I'm editing the max_input_time and upload_max_filesize and post_max_filesize to accomodate large audio files. 100MB
+should do.
+
+That increased my max from 2M to 16M, but I still need more.
+
+adding: 'maxUploadFileSize' => 100000000,
+    to: /config/general.php
+inside the return statement and restarting the server fixed this issue.
+
+I've now uploaded a 30M .mp3 to craft.

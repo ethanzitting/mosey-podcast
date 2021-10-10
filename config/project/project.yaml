@@ -1,4 +1,4 @@
-dateModified: 1632613029
+dateModified: 1633828260
 email:
   fromEmail: ethan@ethanzitting.com
   fromName: 'Mosey Podcast'
@@ -6,11 +6,24 @@ email:
 meta:
   __names__:
     3f4cc2e9-4911-41d2-9bb7-3c74b37d402a: 'Mosey Podcast' # Mosey Podcast
+    4de8c2f6-602b-4b53-90a0-e1890aba309e: 'Latest Content' # Latest Content
+    5c347b16-a655-49bd-8c40-71e5a1df5438: 'List Item 1' # List Item 1
+    5f7efe5c-f33e-4a34-b484-3cce991f1d31: Thumbnail # Thumbnail
     9c3ffe18-cfe2-45fa-889f-33604efd21c1: Home # Home
+    13b733f0-b1c0-4f8b-831b-9e8c6c8b353d: 'Call To Action' # Call To Action
     016e8c96-5fb6-4e94-aa19-a4870dfa1463: Home # Home
+    17d2fe99-f345-4936-8a61-8f10d7fe53ef: 'First Volume' # First Volume
+    80def324-741c-4cd9-99ce-058aa2da36c4: 'Small Episode List' # Small Episode List
     246d7e21-bfd5-4b86-95f6-6a1f83d49ce3: Common # Common
+    389c2c54-c941-49b3-8c99-64675776c9ca: Jumbotron # Jumbotron
+    417fd695-3865-4a13-9472-e089651c22fe: Audio # Audio
+    834b4231-6986-427b-996b-ef52769b0f1c: Description # Description
+    74496f17-6ff9-4c5c-bac4-dbc580c003f4: 'Text Block' # Text Block
     c6e56abd-82dd-495b-bda7-fa82edcbe5da: 'Mosey Podcast' # Mosey Podcast
+    d7d0ecf8-8d8a-4acb-b468-b88239686475: Container # Container
     d89b75da-322d-427f-93ae-0bc71bafcc60: 'Public Schema' # Public Schema
+    ea8a9609-4124-4e44-9937-547b9bea8f21: 'List Item 2' # List Item 2
+    f0b99210-d39a-4dc7-bd32-6eba1a027642: 'List Item' # List Item
 plugins:
   expanded-singles:
     edition: standard
