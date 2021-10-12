@@ -1,6 +1,11 @@
 Welcome! This is my code for a craft site I build for a client's podcast website.
+
 The backend is a LAMP server running on a digital ocean droplet.
+
 The frontend is just HTML/CSS/JS with modules from NPM. I use webpack to process files.
+
+The current purpose of this README is to roughly document my build steps for this project. I intend to revisit this process and flesh out the README into
+a full-blown tutorial on how to do this yourself. I will probably do a youtube video as well.
 
 
 My installation steps:
@@ -11,7 +16,7 @@ Fresh Install of Ubuntu 20.04 LTS
 
 `sudo apt update`
 
-install apache
+## install apache
 `sudo apt install apache2`
 
 ## Adjust the firewall to allow web traffic:
